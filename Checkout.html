@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221020232524">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__content">
+						<div class="header__menu menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Clothes</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Shoes</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+								</ul>
+							</nav>
+						</div>
+						<a class="logo" data-da=".header__body,478.98" href="">
+							<img src="img/header/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="header__links">
+						<div class="header__search" data-da=".menu__body,478.98">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search..." class="header__input input">
+							<a class="header__search" href="">
+								<div class="_icon-search"></div>
+							</a>
+						</div>
+						<div class="header__use" data-da=".menu__body,555">
+							<a class="header__user" href="">
+								<div class="_icon-user header__img"></div>
+
+							</a>
+							<a class="header__cart" href="">
+								<div class="_icon-cart header__img"></div>
+							</a>
+							<a class="header__like" href="">
+								<div class="_icon-like header__img"></div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="checkout">
+				<div class="checkout__container">
+					<div class="checkout__body">
+						<form class="checkout__form form-checkout" action="">
+							<h3 class="form-checkout__title">Shipping Address</h3>
+							<div class="form-checkout__box">
+								<h5 class="form-checkout__name">Email</h5>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+							</div>
+							<div class="form-checkout__box">
+								<h5 class="form-checkout__name">Full name</h5>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+							</div>
+							<div class="form-checkout__box">
+								<h5 class="form-checkout__name">Address</h5>
+								<textarea name="[]" autocomplete="off" name="form[]" data-error="Ошибка" placeholder="" class="textarea"></textarea>
+							</div>
+							<div class="form-checkout__box form-checkout__box_select">
+								<h5 class="form-checkout__name">State/Province</h5>
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Ukraine</option>
+									<option value="2">USA</option>
+									<option value="3">Poland</option>
+									<option value="4">France</option>
+								</select>
+							</div>
+							<div class="form-checkout__box form-checkout__box_select">
+								<h5 class="form-checkout__name">City</h5>
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Ukraine</option>
+									<option value="2">USA</option>
+									<option value="3">Poland</option>
+									<option value="4">France</option>
+								</select>
+							</div>
+							<div class="form-checkout__box">
+								<h5 class="form-checkout__name">Phone number</h5>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+							</div>
+
+							<label class="form-checkout__check check">
+								<input autocomplete="off" type="checkbox" name="form[]" data-error="Ошибка" placeholder="" class="main-check">
+								<div class="main-mask"></div>
+								<div class="form-checkout__text">Set default shipping address</div>
+							</label>
+
+						</form>
+						<div class="checkout__method method-checkout">
+							<div class="method-checkout__top">
+								<h4 class="method-checkout__title">Delivery method</h4>
+								<form class="form" action="#">
+									<label class="method-checkout__label">
+										<input type="radio" class="method-checkout__radio" name="method-checkout-1" checked>
+										<div class="method-checkout__mask"></div>
+										<p class="method-checkout__text">₦2000 Delivery fee Door delivery</p>
+									</label>
+								</form>
+
+							</div>
+							<div class="method-checkout__body">
+								<h4 class="method-checkout__title">Payment Methods</h4>
+								<form action="">
+									<label class="method-checkout__label method-checkout__label_body">
+										<div class="method-checkout__inner">
+											<input type="radio" class="method-checkout__radio" name="method-checkout-2" checked>
+											<div class="method-checkout__mask"></div>
+											<p class="method-checkout__text">Pay with card </p>
+										</div>
+
+										<p class="method-checkout__descr">(Get 5% off total price and money
+											back guarantee)</p>
+										<p class="method-checkout__message">You will be redirected to Paystack payment
+											gateway</p>
+									</label>
+									<label class="method-checkout__label method-checkout__label_body">
+										<div class="method-checkout__inner method-checkout__inner_bottom">
+											<input type="radio" class="method-checkout__radio" name="method-checkout-2">
+											<div class="method-checkout__mask"></div>
+											<p class="method-checkout__text">Pay on delivery</p>
+										</div>
+
+										<ul class="method-checkout__list">
+											<li class="method-checkout__item">Kindly note that we will only accept POS
+												payment option on delivery</li>
+											<li class="method-checkout__item">You have to make payment before opening
+												package</li>
+											<li class="method-checkout__item">Once the seal is broken, item can only be
+												returned if damaged or defective </li>
+										</ul>
+									</label>
+								</form>
+							</div>
+						</div>
+						<div class="checkout__summary summary-checkout">
+							<div class="summary-checkout__body">
+								<h3 class="summary-checkout__title">ORDER SUMMARY</h3>
+								<div class="summary-checkout__content">
+									<div class="summary-checkout__item item-summary">
+										<div class="item-summary__img-ibg">
+											<picture><source srcset="img/checkout/1.webp" type="image/webp"><img src="img/checkout/1.jpg" alt=""></picture>
+										</div>
+										<div class="item-summary__info">
+											<h5 class="item-summary__name">Casual flat loafers</h5>
+											<div class="item-summary__descr">Size - EU: 36 US: 5.5</div>
+											<div class="item-summary__price">₦ 10,000</div>
+											<div class="item-summary__counter">
+												<div class="item-summary__amount">Qty</div>
+												<div class="item-summary__wrapper">
+													<button class="item-summary__button plus"></button>
+													<div class="item-summary__value">1</div>
+													<button class="item-summary__button minus"></button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="summary-checkout__item item-summary">
+										<div class="item-summary__img-ibg">
+											<picture><source srcset="img/checkout/2.webp" type="image/webp"><img src="img/checkout/2.jpg" alt=""></picture>
+										</div>
+										<div class="item-summary__info">
+											<h5 class="item-summary__name">Casual flat loafers</h5>
+											<div class="item-summary__descr">Size - EU: 36 US: 5.5</div>
+											<div class="item-summary__price">₦ 10,000</div>
+											<div class="item-summary__counter">
+												<div class="item-summary__amount">Qty</div>
+												<div class="item-summary__wrapper">
+													<button class="item-summary__button plus"></button>
+													<div class="item-summary__value">1</div>
+													<button class="item-summary__button minus"></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="summary-checkout__info">
+									<div class="summary-checkout__box">
+										<div class="summary-checkout__descr">Cart sub-total</div>
+										<div class="summary-checkout__price">₦ 20,000</div>
+									</div>
+									<div class="summary-checkout__box">
+										<div class="summary-checkout__descr">Card discount</div>
+										<div class="summary-checkout__price">-₦ 1,000</div>
+									</div>
+									<div class="summary-checkout__box">
+										<div class="summary-checkout__descr">Delivery fee</div>
+										<div class="summary-checkout__price">₦2,000</div>
+									</div>
+								</div>
+								<div class="summary-checkout__total">
+									<div class="summary-checkout__box">
+										<div class="summary-checkout__total">TOTAL</div>
+										<div class="summary-checkout__value">₦ 21,000</div>
+									</div>
+								</div>
+							</div>
+							<div class="summary-checkout__bottom">
+								<div class="summary-checkout__box summary-checkout__box_bottom">
+									<p class="summary-checkout__descr">Is this a gift?</p>
+									<form action="">
+										<label class="summary-chekout__label">
+											<input type="radio" class="summary-checkout__radio" name="method-checkout-3">
+											<div class="summary-checkout__mask">YES</div>
+										</label>
+										<label class="summary-chekout__label">
+											<input type="radio" class="summary-checkout__radio" name="method-checkout-3" checked>
+											<div class="summary-checkout__mask">NO</div>
+										</label>
+									</form>
+								</div>
+								<div class="summary-checkout__attention">A complimentary gift receipt will be included
+									in the package, and
+									prices will be hidden on the receipt.</div>
+								<button type="submit" class="summary-checkout__button main-button main-button_width">PLACE ORDER</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<a class="footer__logo" href="">
+						<img src="img/header/logo.svg" alt="">
+					</a>
+					<div class="footer__box">
+						<div class="footer__info">
+							<a class="footer__item" href="">About Us</a>
+							<a class="footer__item" href="">Contact</a>
+							<a class="footer__item" href="">Terms & Conditions</a>
+						</div>
+						<div class="footer__links">
+							<a class="footer__link" href="">
+								<div class="footer__img">
+									<img src="img/footer/01.svg" alt="">
+								</div>
+								<div class="footer__name">Facebook</div>
+							</a>
+							<a class="footer__link" href="">
+								<div class="footer__img">
+									<img src="img/footer/02.svg" alt="">
+								</div>
+								<div class="footer__name">Twitter</div>
+							</a>
+							<a class="footer__link" href="">
+								<div class="footer__img">
+									<img src="img/footer/03.svg" alt="">
+								</div>
+								<div class="footer__name">Instagram</div>
+							</a>
+						</div>
+						<div class="footer__wrapper">
+							<div class="footer__title">Subscribe our newsletter</div>
+							<form class="footer__form" action="">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Email Address" class="input footer__input">
+								<button class="footer__button">OK</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="footer__local">
+						<a class="footer__data" href="">497 Evrgen Rd.Rosevill,CA 94537</a>
+						<a class="footer__data" href="tel:1234567">+123456789</a>
+						<a class="footer__data" href="mailto:">example@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Close</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221020232524"></script>
+</body>
+
+</html>
